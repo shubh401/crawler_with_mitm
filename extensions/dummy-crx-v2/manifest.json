@@ -1,0 +1,38 @@
+{
+    "name": "Dummy CRX V2",
+    "version": "1.0",
+    "description": "Dummy Extension",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://*/*",
+                "https://*/*",
+                "<all_urls>"
+            ],
+            "js": [
+                "contentScript.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "web_accessible_resources": ["inject.js"],
+
+    "permissions": [
+        "<all_urls>",
+        "tabs",
+        "cookies",
+        "storage",
+        "unlimitedStorage",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "manifest_version": 2,
+    "content_security_policy": "script-src 'unsafe-eval' 'self' 'unsafe-eval'; object-src 'self'; connect-src http: https:;"
+}

@@ -1,0 +1,9 @@
+Request URL: http://example.org/?source=bg --- Initiator: None
+Request URL: https://redirector.gvt1.com/edgedl/chrome/dict/en-us-10-1.bdic --- Initiator: None
+Request URL: https://accounts.google.com/ListAccounts?gpsia=1&source=ChromiumBrowser&json=standard --- Initiator: https://www.google.com
+Request URL: https://r2---sn-4g5e6nss.gvt1.com/edgedl/chrome/dict/en-us-10-1.bdic?cms_redirect=yes&mh=7g&mip=134.96.225.53&mm=28&mn=sn-4g5e6nss&ms=nvh&mt=1694086829&mv=m&mvi=2&pl=19&rmhost=r5---sn-4g5e6nss.gvt1.com&shardbypass=sd&smhost=r5---sn-4g5lznez.gvt1.com --- Initiator: None
+Request URL: http://example.org/?testId=dummy-crx-v2&visit=0&extensionId=dummy-crx-v2&browser=chrome&dataset=test --- Initiator: None
+Request URL: http://example.org/?source=cs --- Initiator: http://example.org/?testId=dummy-crx-v2&visit=0&extensionId=dummy-crx-v2&browser=chrome&dataset=test
+Request URL: http://example.org/?source=inj --- Initiator: http://example.org/?testId=dummy-crx-v2&visit=0&extensionId=dummy-crx-v2&browser=chrome&dataset=test
+Request URL: http://example.org/favicon.ico --- Initiator: http://example.org/?testId=dummy-crx-v2&visit=0&extensionId=dummy-crx-v2&browser=chrome&dataset=test
+Request URL: https://optimizationguide-pa.googleapis.com/v1:GetModels?key=dummytoken --- Initiator: None
